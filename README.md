@@ -5,7 +5,7 @@
 Install the dependencies:
 
 ```bash
-pnpm install
+bun install
 ```
 
 ## Get started
@@ -13,17 +13,14 @@ pnpm install
 Start the dev server:
 
 ```bash
-pnpm dev
+bun run dev
+```
+
+or
+```bash
+bun --bun run dev # ?
 ```
 
 Build the app for production:
 
-```bash
-pnpm build
-```
-
-Preview the production build locally:
-
-```bash
-pnpm preview
-```
+... ?

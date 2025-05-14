@@ -37,9 +37,10 @@ export default function BookPicker({ books }) {
 
     return (
         <>
+            <input type="text" name="fooz" />
             <div className="input-container">
                 <div className="input-line">
-                    <label htmlFor="author">Author</label>
+                    <label htmlFor="author">author</label>
                     <input onChange={(e) => inputHandler("author", e.target.value)} type="text" name="author" id="author" />
                 </div>
                 <div className="input-line">
